@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+}
+
+.header {
+  background-color: #F55A5A;
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-inline {
+  display: inline;
+}
+
+.earth-icon-image {
+  width: 25px;
+  object-fit: cover;
+
+  margin-right: 10px;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+.journies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  
+  margin-left: 40px;
+  margin-right: 150px;
+}
+
+.journey-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  margin-bottom: 25px;
+}
+
+.left-section-container {
+  margin-right: 20px;
+}
+
+.place-image {
+  height: 175px;
+  object-fit: cover;
+}
+
+.right-section-container {
+  margin-top: 5px;
+}
+
+.location-info-container {
+  display: flex;
+  flex-direction: row;
+  vertical-align: bottom;
+
+  margin-bottom: 10px;
+
+}
+
+.location-container {
+  display: inline-block;
+
+  margin-right: 20px;
+}
+
+.pointer-icon-image {
+  width: 10px;
+  object-fit: cover;
+
+  margin-right: 5px;
+}
+
+.google-maps-container {
+  display: inline-block;
+
+}
+
+.google-maps-link {
+  color: #918E9B;
+  font-size: 14px;
+}
+
+.location-name-container {
+  font-size: 25px;
+  font-weight: bold;
+
+  margin-bottom: 15px;
+}
+
+.date-container {
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+
+.description-container {
+  margin-bottom: 5px;
+
+}
